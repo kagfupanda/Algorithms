@@ -17,6 +17,8 @@ public class UFMain {
 			if(!uf.connected(p,q)) {
 				uf.union(p, q);
 				System.out.println(p + " " + q);
+			} else  {
+				System.out.format("%d is connected to %d %n", p, q);
 			}
 			uf.dumpArray();
 		}
