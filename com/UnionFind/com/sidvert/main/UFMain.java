@@ -9,7 +9,8 @@ public class UFMain {
 	public static void main(String[] args) {
 		int N = StdIn.readInt();
 		//UF uf = new UF(N);
-		QuickUnionUF uf = new QuickUnionUF(N);
+	//	QuickUnionUF uf = new QuickUnionUF(N);
+		WeightedQuickUnionUF uf = new WeightedQuickUnionUF(N);
 
 		while (!StdIn.isEmpty()) {
 			int p = StdIn.readInt();
