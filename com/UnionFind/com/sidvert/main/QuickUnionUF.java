@@ -1,6 +1,6 @@
 package com.sidvert.main;
 
-public class QuickUnionUF {
+public class QuickUnionUF extends UnionFind{
 	private int[] rootid;
 
 	//ctor

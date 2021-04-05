@@ -1,6 +1,6 @@
 package com.sidvert.main;
 
-public class UF {
+public class UF extends UnionFind{
 	private int[] connections;
 	
 	public UF(int N) {

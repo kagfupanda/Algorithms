@@ -1,6 +1,6 @@
 package com.sidvert.main;
 
-public class WeightedQuickUnionUF {
+public class WeightedQuickUnionUF extends UnionFind{
 	private int[] rootid;
 	private int[] sz;
 
